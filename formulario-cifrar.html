@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cifra de César</title>
+</head>
+<body>
+    <h2>Cifra de César - Cifrar</h2>
+    <form action="cifrar.php" method="POST">
+        <label for="texto">Texto para cifrar:</label><br>
+        <textarea name="texto" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="deslocamento">Número de deslocamento (3 a 25):</label><br>
+        <input type="number" name="deslocamento" min="3" max="25" required><br><br>
+
+        <input type="submit" value="Cifrar">
+    </form>
+</body>
+</html>
